@@ -13,7 +13,7 @@ jobs:
 
       - name: Configure upstream remote
         run: |
-          git remote add upstream https://github.com/original-owner/original-repo.git
+          git remote add upstream https://github.com/nhost/nhost.git
           git fetch upstream
 
       - name: Merge upstream changes

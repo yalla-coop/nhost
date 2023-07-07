@@ -1,5 +1,21 @@
 # @nhost/dashboard
 
+## 0.19.0
+
+### Minor Changes
+
+- 9c61c69a7: chore(dashboard):add postgres 14.6-20230705-1 to the version selector
+
+### Patch Changes
+
+- 47bda15ff: feat(settings): add warning to pull config
+
+## 0.18.0
+
+### Minor Changes
+
+- ee0b9b8ed: chore(dashboard):add hasura v2.28.2 and v2.29.0 to the version selector
+
 ## 0.17.20
 
 ### Patch Changes

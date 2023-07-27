@@ -1,5 +1,15 @@
 # @nhost/dashboard
 
+## 0.20.2
+
+### Patch Changes
+
+- face99ccd: chore(deps): bump turbo version
+- cfe527307: style: tweak pull config warning in dark mode
+- a9d7da8af: chore(deps): update dependency @types/pluralize to ^0.0.30
+  - @nhost/react-apollo@5.0.33
+  - @nhost/nextjs@1.13.35
+
 ## 0.20.1
 
 ### Patch Changes

@@ -21,5 +21,9 @@ jobs:
           git config --global user.email "sync_fork@workflows.com"
           git config --global user.name "Sync Fork"
           git checkout main
+          commit_hash=$(git rev-parse HEAD)
           git merge --allow-unrelated-histories -X theirs upstream/main -m "Merge upstream changes"
+          git reset --soft $commit_hash
+          git restore --staged .github
+          git commit -m "Merge upstream changes"
           git push origin main

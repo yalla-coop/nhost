@@ -1,5 +1,21 @@
 # @nhost/docs
 
+## 0.6.2
+
+### Patch Changes
+
+- 4fe4a1696: return `refreshToken` immediately after signIn and signUp
+
+## 0.6.1
+
+### Patch Changes
+
+- 612d75496: updated postgres and graphql documentation
+- 3b3e83a21: fix(docs): correct rendering of mermaid diagrams in dark mode
+- 765b398b2: added jit settings documentation
+- 30aae1557: minor fix to performance documentation
+- a3efc1d13: docs: added storage/antivirus documentation
+
 ## 0.6.0
 
 ### Minor Changes

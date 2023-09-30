@@ -1,5 +1,24 @@
 # @nhost/dashboard
 
+## 0.20.20
+
+### Patch Changes
+
+- @nhost/react-apollo@5.0.36
+- @nhost/nextjs@1.13.38
+
+## 0.20.19
+
+### Patch Changes
+
+- 75c4c8ae3: feat(dashboard): make env value input multiline
+
+## 0.20.18
+
+### Patch Changes
+
+- 425d485f8: fix(dashboard): make sure dedicated resources pricing follows total resources
+
 ## 0.20.17
 
 ### Patch Changes

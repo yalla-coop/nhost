@@ -1,5 +1,42 @@
 # @nhost/dashboard
 
+## 1.3.0
+
+### Minor Changes
+
+- 04784d880: Fix graphite's default version
+
+## 1.2.0
+
+### Minor Changes
+
+- 5733162ed: feat: add settings and ui for graphite
+
+## 1.1.0
+
+### Minor Changes
+
+- e2b79b5ec: chore: remove sharp from deps
+
+## 1.0.1
+
+### Patch Changes
+
+- @nhost/react-apollo@7.0.1
+- @nhost/nextjs@2.0.1
+
+## 1.0.0
+
+### Major Changes
+
+- bc9eff6e4: chore: remove support for using backendUrl when instantiating the Nhost client
+
+### Patch Changes
+
+- Updated dependencies [bc9eff6e4]
+  - @nhost/nextjs@2.0.0
+  - @nhost/react-apollo@7.0.0
+
 ## 0.21.1
 
 ### Patch Changes

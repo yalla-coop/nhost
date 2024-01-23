@@ -16,7 +16,8 @@ export default function OverviewTopBar() {
   const isPlatform = useIsPlatform();
   const { currentWorkspace, currentProject } = useCurrentWorkspaceAndProject();
   const isOwner = useIsCurrentUserOwner();
-  const isPro = !currentProject?.plan?.isFree;
+  const isStarter = currentProject?.plan?.name === 'Starter';
+  const isPro = currentProject?.plan?.name === 'Pro';
   const { openDialog } = useDialog();
   const { maintenanceActive } = useUI();
 
@@ -65,7 +66,6 @@ export default function OverviewTopBar() {
               >
                 {currentProject.name}
               </Text>
-
               {currentProject.creator && (
                 <Text
                   color="secondary"
@@ -81,15 +81,14 @@ export default function OverviewTopBar() {
                   ago
                 </Text>
               )}
-
               <div className="mt-1 inline-grid grid-flow-col items-center justify-start gap-2 md:mt-0">
                 <Chip
                   size="small"
                   label={currentProject.plan.name}
-                  color={isPro ? 'primary' : 'default'}
+                  color={!isStarter ? 'primary' : 'default'}
                 />
 
-                {!isPro && isOwner && (
+                {(isStarter || isPro) && isOwner && (
                   <Button
                     variant="borderless"
                     className="mr-2"

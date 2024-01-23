@@ -1,5 +1,17 @@
 # @nhost/dashboard
 
+## 1.6.0
+
+### Minor Changes
+
+- 3ff1c2b53: fix: show upgrade option for pro projects
+
+## 1.5.0
+
+### Minor Changes
+
+- c2ef17c0a: feat: add support for new Team plan
+
 ## 1.4.0
 
 ### Minor Changes

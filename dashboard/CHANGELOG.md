@@ -1,5 +1,23 @@
 # @nhost/dashboard
 
+## 1.6.4
+
+### Patch Changes
+
+- 7c2a1c2: feat: show error and debug info in the error toast
+
+## 1.6.3
+
+### Patch Changes
+
+- 6b8aad5: fix: add bare nhost.run to CSP
+
+## 1.6.2
+
+### Patch Changes
+
+- b18edc0: feat: added CSP and X-Frame-Options
+
 ## 1.6.1
 
 ### Patch Changes

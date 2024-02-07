@@ -1,11 +1,11 @@
 {
   "name": "@nhost/docs",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "private": true,
   "scripts": {
     "start": "mintlify dev"
   },
   "devDependencies": {
-    "mintlify": "^4.0.112"
+    "mintlify": "^4.0.121"
   }
 }

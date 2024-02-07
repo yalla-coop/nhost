@@ -1,6 +1,6 @@
 {
   "name": "@nhost/apollo",
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "Nhost Apollo Client library",
   "license": "MIT",
   "keywords": [
@@ -68,7 +68,7 @@
     "graphql-ws": "^5.14.3"
   },
   "devDependencies": {
-    "@apollo/client": "^3.8.9",
+    "@apollo/client": "^3.9.1",
     "@nhost/nhost-js": "workspace:*"
   }
 }

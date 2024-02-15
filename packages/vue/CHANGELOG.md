@@ -1,5 +1,21 @@
 # @nhost/vue
 
+## 2.2.0
+
+### Minor Changes
+
+- 017f1a6: feat: add elevated permission examples
+
+### Patch Changes
+
+- @nhost/nhost-js@3.0.5
+
+## 2.1.1
+
+### Patch Changes
+
+- @nhost/nhost-js@3.0.4
+
 ## 2.1.0
 
 ### Minor Changes

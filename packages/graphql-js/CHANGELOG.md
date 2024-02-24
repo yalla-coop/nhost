@@ -1,5 +1,17 @@
 # @nhost/graphql-js
 
+## 0.1.7
+
+### Patch Changes
+
+- 2d68fee: fix: resolve an issue where unauthenticated graphql requests are not sent
+
+## 0.1.6
+
+### Patch Changes
+
+- e0ab6d9: fix: add extra logic to check and wait for a valid JWT
+
 ## 0.1.5
 
 ### Patch Changes

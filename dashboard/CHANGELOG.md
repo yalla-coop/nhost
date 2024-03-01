@@ -1,5 +1,24 @@
 # @nhost/dashboard
 
+## 1.9.0
+
+### Minor Changes
+
+- d86e5c9: feat: add support for filtering the logs using a RegExp
+
+## 1.8.3
+
+### Patch Changes
+
+- @nhost/react-apollo@9.0.3
+- @nhost/nextjs@2.1.5
+
+## 1.8.2
+
+### Patch Changes
+
+- 6df4f02: fix: use custom error toast and show correct message when sending an invite
+
 ## 1.8.1
 
 ### Patch Changes
